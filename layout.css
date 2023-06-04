@@ -1,0 +1,22 @@
+
+form{
+    margin: 100px 450px 100px 450px;
+    background-color: rgba(228, 226, 226, 0.8);
+}
+
+.form-content{
+   padding: 0 200px 0 200px;
+}
+
+.status, .date, #terms, #newsletter{
+    display: inline-block;
+}
+
+legend{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#submit{
+    margin-left: 5em;
+}
