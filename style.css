@@ -81,3 +81,24 @@ body{
 #column2 div{
     background-color: rgba(228, 226, 226, 0.3);
 }
+
+/*CSS rule for phones*/
+@media only screen and (max-width: 480px) {
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+    } 
+   
+    .skills img{
+        width: 100%;
+        margin: 1em;
+    }
+    .row1, .row2{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+/*CSS rule for tablets*/
+@media only screen and (min-width:481px) and (max-width:768px){
+
+}
